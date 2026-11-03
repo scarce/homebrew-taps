@@ -1,6 +1,6 @@
 cask "sonata" do
-  version "0.1.7"
-  sha256 "3b4a1347c57f4dc3e636e3b80616cd89c0a8a2d64b1057e9b31e86c69b38e0ee"
+  version "0.1.9"
+  sha256 "5df89c393d3d74217dcdced1f5a98d408203c843f617626f0ed8eee7a7b16698"
 
   url "https://github.com/lgalabru/sonata/releases/download/v#{version}/Sonata-#{version}.zip"
   name "Sonata"
@@ -11,11 +11,12 @@ cask "sonata" do
 
   app "Sonata.app"
 
-  uninstall quit: "dev.sonata.Sonata"
+  uninstall quit: "sh.scarce.Sonata"
 
   zap trash: [
     "~/Library/Caches/sonata",
     "~/Library/Preferences/dev.sonata.Sonata.plist",
+    "~/Library/Preferences/sh.scarce.Sonata.plist",
   ]
 
   caveats <<~EOS
