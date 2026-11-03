@@ -1,6 +1,6 @@
 cask "sonata" do
-  version "0.1.9"
-  sha256 "5df89c393d3d74217dcdced1f5a98d408203c843f617626f0ed8eee7a7b16698"
+  version "0.1.11"
+  sha256 "69c68f92d9312a251670e846c5a0dfbf55e4add3d56b10992625b73c46dc24f4"
 
   url "https://github.com/lgalabru/sonata/releases/download/v#{version}/Sonata-#{version}.zip"
   name "Sonata"
