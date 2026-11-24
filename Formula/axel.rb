@@ -2,18 +2,18 @@
 class Axel < Formula
   desc "Agent orchestration, designed for Rex"
   homepage "https://axel.md"
-  version "0.3.160"
+  version "0.3.161"
   license "Apache-2.0"
 
   depends_on :macos
 
   on_arm do
-    url "https://github.com/lgalabru/axel/releases/download/v0.3.160/axel-0.3.160-aarch64-apple-darwin.tar.gz"
-    sha256 "4047f3ca1b25aec6eb31ff767d7da0d4e735bc387d2c2b511d32097bcd7503db"
+    url "https://github.com/lgalabru/axel/releases/download/v0.3.161/axel-0.3.161-aarch64-apple-darwin.tar.gz"
+    sha256 "97dfd54d53207d066d25622803ecd0f87e1ff6dd2f1a19e4b6b404be05149ade"
   end
   on_intel do
-    url "https://github.com/lgalabru/axel/releases/download/v0.3.160/axel-0.3.160-x86_64-apple-darwin.tar.gz"
-    sha256 "f49b3c9b3fd614f76305452d30ed885241a966937953cf0de7a210533c4d29bb"
+    url "https://github.com/lgalabru/axel/releases/download/v0.3.161/axel-0.3.161-x86_64-apple-darwin.tar.gz"
+    sha256 "2e3e8722e3fce69fa0a38c28c3871e4e5571ea8dca78e10b95b355d51e8b9532"
   end
 
   def install
